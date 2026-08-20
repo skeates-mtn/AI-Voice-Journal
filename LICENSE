@@ -1,6 +1,19 @@
+# Capsule Corp AI Journal — Licensing
+
+This project contains three distinct artifact types, each covered by a
+different license appropriate to that category. See the sections below,
+and refer to the supplementary license files in this repository.
+
+---
+
+## Software (MIT License)
+
+Applies to: all source code, scripts, configuration files, and firmware
+(e.g. `src/`, `scripts/`, `config/`, `*.py`, `*.sh`, `*.json`, `*.yaml`)
+
 MIT License
 
-Copyright (c) 2026 skeates-mtn
+Copyright (c) 2026 Steven Keates
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +32,41 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## Hardware Design (CERN Open Hardware Licence v2 — Strongly Reciprocal)
+
+Applies to: all PCB schematics, PCB layouts, Gerber files, and EasyEDA
+project files (e.g. `hardware/`, `pcb/`, `*.sch`, `*.kicad_pcb`, `*.gbr`)
+
+Full license text: [LICENSE-hardware.md](./LICENSE-hardware.md)
+
+Summary: You may use, study, modify, and distribute these hardware design
+files, provided that any derivative hardware designs are released under the
+same CERN-OHL-S v2 license and that all modifications are documented.
+
+---
+
+## Enclosure & Documentation (Creative Commons Attribution 4.0 International)
+
+Applies to: all 3D model files, CAD exports, drawings, images, and written
+documentation (e.g. `enclosure/`, `docs/`, `*.stl`, `*.step`, `*.pdf`,
+`*.md` files other than source code configs)
+
+Full license text: [LICENSE-docs.md](./LICENSE-docs.md)
+
+Summary: You are free to share and adapt this material for any purpose,
+including commercially, as long as you give appropriate credit to the
+original author (Steven Keates / Capsule Corp AI Journal project).
+
+---
+
+## Trademark Notice
+
+This project is a personal fan build inspired by the Capsule Corporation
+from the Dragon Ball franchise. It is not affiliated with, endorsed by, or
+connected to Toei Animation, Shueisha, Funimation, or any rights holders of
+the Dragon Ball IP. The Capsule Corp. name and logo are trademarks of their
+respective owners and are used here solely for non-commercial, personal,
+fan-project purposes.
